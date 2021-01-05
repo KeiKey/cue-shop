@@ -127,7 +127,8 @@ body {
     height: 125px;
 }
 .header .navbar-brand img:hover,
-.header .nav a:hover {
+.header .nav a:hover,
+.header .nav a.active{
     opacity: 0.8;
     transition: opacity 0.3s;
 }

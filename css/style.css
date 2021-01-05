@@ -203,18 +203,18 @@ body {
 .hide-nav {
     visibility: hidden;
 }
-#mobile-nav{
+.mobile-nav{
     background-color: transparent;
     min-height: 71px;
 }
-#mobile-nav .navbar-brand{
+.mobile-nav .navbar-brand{
     margin-left: -98px;
     padding-left: 50%;
 }
-#mobile-nav-brand{
+.mobile-nav-brand{
     max-height: 45px;
 }
-#scrollnav{
+.scrollnav{
     display: none;
 }
 .display-flex{
@@ -234,7 +234,7 @@ body {
     .container{
         max-width: 100%;
     }
-    #scrollnav{
+    .scrollnav{
         display: none !important;
     }
     .main-content-introduction h3 {
